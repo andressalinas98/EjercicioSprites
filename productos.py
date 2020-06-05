@@ -5,10 +5,10 @@ class Frente():
 
 class FrenteJugador_uno(Frente):
     def get_sprites(self):
-        return [util.cargar_imagen('imagenes/PF0.png'),
-                util.cargar_imagen('imagenes/PF1.png'),
-                util.cargar_imagen('imagenes/PF2.png'),
-                util.cargar_imagen('imagenes/PF3.png')]
+        return [util.cargar_imagen('imagenes/F0.png'),
+                util.cargar_imagen('imagenes/F1.png'),
+                util.cargar_imagen('imagenes/F2.png'),
+                util.cargar_imagen('imagenes/F3.png')]
 
 class FrenteJugador_dos(Frente):
     def get_sprites(self):

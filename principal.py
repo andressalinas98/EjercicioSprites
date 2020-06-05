@@ -23,14 +23,17 @@ def game():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 ejecutando = False
-        #jugador.update()
-        #jugador.draw(screen)
+        jugador.update()
+        screen.fill(WHITE)
+        jugador.draw(screen)
+        pygame.display.flip()
+        clock.tick(30)
                 
-screen.fill(WHITE)
-jugador.update()
-jugador.draw(screen)
-pygame.display.flip()
-clock.tick(30)
+#screen.fill(WHITE)
+#jugador.update()
+#jugador.draw(screen)
+#pygame.display.flip()
+#clock.tick(30)
 
 if __name__ == '__main__':
     game()
